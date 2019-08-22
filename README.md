@@ -64,7 +64,7 @@ mit dem homedir /home/pi:
 und als Installationsverzeichnis /home/pi/flashdump/
 gesetzt - ggf. auf anderen user anpassen.
 
-Für den Zugriff auf den ch341 am USB-Bus braucht's rootrechte - also entweder ein sudo im start.sh einfügen oder sticky/trusted bits für die /home/pi/*.sh setzen.
+Für den Zugriff auf den ch341 am USB-Bus braucht's rootrechte - also entweder ein sudo im start.sh einfügen oder sticky/trusted bits für die /home/pi/flashdump/*.sh setzen.
 
 
 ### macOS (Homebrew) 
