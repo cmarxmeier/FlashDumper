@@ -42,7 +42,7 @@ In den einzelnen Verzeichnissen unterhalb von `./router-flash-dumps/` werden fol
 ---
 
 ## Abhängigkeiten
-### Debian
+### Debian / Ubuntu
 `'dialog'` muß installiert sein.
 ```
 sudo apt update && sudo apt install dialog
@@ -56,6 +56,16 @@ git clone https://github.com/flashrom/flashrom
 cd flashrom
 make && sudo make install
 ```
+
+Zum Einbinden in den Desktop die Dateien  wurde für den user pi
+mit dem homedir /home/pi:
+/usr/share/applications/FlashDump.desktop
+/usr/share/pixmaps/FlashDump.xpm
+und als Installationsverzeichnis /home/pi/flashdump/
+gesetzt - ggf. auf anderen user anpassen.
+
+Für den Zugriff auf den ch341 am USB-Bus braucht's rootrechte - also entweder ein sudo im start.sh einfügen oder sticky/trusted bits für die /home/pi/*.sh setzen.
+
 
 ### macOS (Homebrew) 
 `'dialog'` muß installiert sein.
