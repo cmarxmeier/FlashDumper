@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Freifunk FlashDumper
+Name[en]=FlashDumper
+Comment=Dialog for flashrom
+Exec=/home/alladin/flashdumper/start.sh
+Icon=/usr/share/pixmaps/FlashDumper.xpm
+Terminal=true
+Type=Application
+Categories=ConsoleOnly;Utility;System;FlashTools;
+Keywords=flashrom;freifunk;console;
