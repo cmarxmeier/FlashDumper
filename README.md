@@ -64,7 +64,7 @@ mit dem homedir /home/pi:
 und als Installationsverzeichnis /home/pi/flashdump/
 gesetzt - ggf. auf anderen user anpassen.
 
-Für den Zugriff auf den ch341 am USB-Bus braucht's rootrechte - also entweder ein sudo im start.sh einfügen oder sticky/trusted bits für /usr/sbin/flashrom setzen.
+Für den Zugriff auf den ch341 am USB-Bus braucht's rootrechte - am einfachsten sticky/trusted bits für /usr/sbin/flashrom setzen.
 
 Getestet auf: Atom X32, i3 x86-64bit, pinea64 512MB und pinea64-plus 1GB mit Armbian und Raspberry PI2 mit Raspbian
 
