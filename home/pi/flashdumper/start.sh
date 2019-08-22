@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/alladin/flashdumper/
+cd /home/pi/flashdumper/
 ./flashdumper.sh
 
