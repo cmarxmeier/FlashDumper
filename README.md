@@ -66,6 +66,8 @@ gesetzt - ggf. auf anderen user anpassen.
 
 Für den Zugriff auf den ch341 am USB-Bus braucht's rootrechte - also entweder ein sudo im start.sh einfügen oder sticky/trusted bits für die /home/pi/flashdump/*.sh setzen.
 
+Getestet auf: i3 x86-64bit, pine64 512MB und pine64-plus 1GB mit Armbian und Raspberry PI2 mit Raspbian
+
 
 ### macOS (Homebrew) 
 `'dialog'` muß installiert sein.
