@@ -50,7 +50,7 @@ sudo apt update && sudo apt install dialog
 
 Das Tool `'flashrom'` muss nach der Anleitung des c't Artikels installiert sein.
 ```
-sudo apt update &&  sudo apt install git libpci-dev libusb-1.0 libusb-dev
+sudo apt update &&  sudo apt install git libpci-dev libusb-1.0 libusb-dev libftdi-dev
 cd
 git clone https://github.com/flashrom/flashrom
 cd flashrom
