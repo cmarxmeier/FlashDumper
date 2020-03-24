@@ -13,7 +13,10 @@ histchars=
 #-------------------------------------------------------------------------------
 # "flashrom"-Tool Parameter
 #-------------------------------------------------------------------------------
+#standard
 FLASHROM_PROGRAMMER_PARAMETER="linux_spi:dev=/dev/spidev0.0,spispeed=1000"
+# special
+#FLASHROM_PROGRAMMER_PARAMETER="linux_spi:dev=/dev/spidev0.0,spispeed=1000 -c MX25L3206E/MX25L3208E"
 FLASHROM_PROGRAMMER="linux_spi"
 SUDO_CMD="sudo -S"
 
